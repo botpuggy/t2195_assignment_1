@@ -1,0 +1,22 @@
+---
+title: "Practice Assignment 01"
+author: "Kyler How"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Practice Assignment 01
+
+This is an R Markdown document. The code below prints all integers between 1 and 10 ( including 1 and 10) to screen
+
+
+```{r integer}
+for (x in 1:10) {
+  print(x)
+}
+```
+
